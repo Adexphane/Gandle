@@ -14,4 +14,8 @@ body{
     .link {
         @apply hover:underline text-[#f0f0f0] hover:text-[#ffffff] cursor-pointer font-medium transition-all;
     }
+
+    .header-icon {
+        @apply bg-transparent hover:bg-gray-200 p-2 text-4xl rounded-full cursor-pointer
+    }
 }
