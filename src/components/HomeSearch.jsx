@@ -50,7 +50,7 @@ const HomeSearch = () => {
         >
           {randomSearchLoading ? (
             <img
-              src="./"
+              src="spinner2.svg"
               alt="loading..."
               className="h-6 text-center"
             />

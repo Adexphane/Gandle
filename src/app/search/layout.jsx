@@ -1,7 +1,6 @@
 import SearchHeader from "@/components/SearchHeader";
 import { Inter } from "next/font/google";
 import "../../app/globals.css";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -14,6 +13,7 @@ export default function SearchLayout({ children }) {
     <div>
       <SearchHeader />
       {children}
+      
     </div>
   );
 }

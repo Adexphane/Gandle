@@ -6,18 +6,22 @@ import UsersCountry from "./UsersCountry";
 
 const HomeHeader = () => {
   return (
+    
     <header className=" flex justify-between px-8 py-5 text-sm bg-[#21201E]">
       <div className=" flex text-sm items-center">
-        <ImLocation className=" bg-transparent text-[#F5F6F1] text-[45px] p-2" />
+        <ImLocation className=" bg-transparent text-[#F5F6F1] text-[40px] p-2" />
+        <div
+          href="https://mail.google.com"
+          className="text-lg font-semibold text-[#F5F6F1]"
+        >
+          <UsersCountry />
+        </div>
+      </div>
+      <div className=" flex space-x-4 items-center">
         <Link
           href="https://mail.google.com"
           className=" hover:underline text-lg font-semibold text-[#F5F6F1]"
         >
-          <UsersCountry/>
-        </Link>
-      </div>
-      <div className=" flex space-x-4 items-center">
-        <Link href="https://mail.google.com" className=" hover:underline text-lg font-semibold text-[#F5F6F1]">
           Images
         </Link>
         {/* <Link href="https://image.google.com" className=" hover:underline">
